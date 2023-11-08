@@ -1,0 +1,21 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Fortran module files
+*.mod
+*.smod
+
+# Folders
+MuzeumOpenGL/.vs/
+MuzeumOpenGL/x64/
+MuzeumOpenGL/x86/
+
+# Executables
+*.exe
+*.out
+*.app
