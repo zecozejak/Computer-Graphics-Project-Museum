@@ -1,34 +1,74 @@
-# Computer-Graphics-Project-Museum
-OpenGL C++ Project of a Museum, Computer Graphics Politechnika Poznańska 
+# Computer Graphics Project: Museum
 
-Polish instruction:
+## Overview
 
-Opis sterowania animacją:
-AWSD - kierunki poruszania się
-ruch myszką - poruszanie kamerą
-alt + f4 - wyjście z projektu
+This project is an OpenGL application developed in C++ as part of the Computer Graphics course at Poznan University of Technology. It simulates a virtual museum environment, allowing users to navigate through a two-room building designed in Blender and exported as an `.obj` file.
 
-https://skfb.ly/6WNDX
-https://skfb.ly/6YwPH
-https://skfb.ly/on7IY
-https://skfb.ly/EIHL
-https://skfb.ly/oDxot
+## Features
 
-Budynek dwupokojowy z oknami zaprojektowany przez Aleksander Kwaśnioch w programie Blender
-i eksportowany jako plik .obj.
+- **3D Navigation**:
+  - Move through the virtual museum using keyboard controls.
+  - Adjust the camera perspective with mouse movements.
 
-English Instruction:
+- **Interactive Environment**:
+  - Explore a two-room building complete with windows, providing an immersive experience.
 
-Animation control description:
-AWSD - directions of movement
-mouse movement - camera movement
-alt + f4 - exit from the project
+## Controls
 
-https://skfb.ly/6WNDX
-https://skfb.ly/6YwPH
-https://skfb.ly/on7IY
-https://skfb.ly/EIHL
-https://skfb.ly/oDxot
+- **Movement**:
+  - `W` - Move forward
+  - `A` - Move left
+  - `S` - Move backward
+  - `D` - Move right
 
-Two-room building with windows designed by Aleksander Kwaśnioch in Blender
-and exported as an .obj file.
+- **Camera**:
+  - Move the mouse to adjust the camera's direction.
+
+- **Exit**:
+  - Press `Alt + F4` to exit the application.
+
+## Installation and Running the Project
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/zecozejak/Computer-Graphics-Project-Museum.git
+   cd Computer-Graphics-Project-Museum
+   ```
+
+2. **Build the Project**:
+
+   - Ensure you have a C++ development environment set up with OpenGL libraries installed.
+   - Compile the source code using your preferred C++ compiler.
+
+3. **Run the Application**:
+
+   - Execute the compiled binary to start the virtual museum experience.
+
+## Project Structure
+
+- `GKiW-muzeum-main/`: Contains the main source code and resources for the project.
+- `README.md`: Provides an overview and instructions for the project.
+- `readme.txt`: Contains additional information and instructions.
+- `2023-06-12 17-55-49.mp4`: A demonstration video showcasing the project's features.
+
+## Credits
+
+- **Design and Development**:
+- Aleksander Kwaśnioch
+- Dominik Maćkowiak
+  
+
+## Additional Resources
+
+- 3D models used in the project:
+  - [Model 1](https://skfb.ly/6WNDX)
+  - [Model 2](https://skfb.ly/6YwPH)
+  - [Model 3](https://skfb.ly/on7IY)
+  - [Model 4](https://skfb.ly/EIHL)
+  - [Model 5](https://skfb.ly/oDxot)
+
+
+## Acknowledgements
+
+Special thanks to the Computer Graphics course instructors at Poznan University of Technology for their guidance and support throughout the development of this project. 
